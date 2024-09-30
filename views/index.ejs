@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./style.css" />
+    <title>Fake Social Media Detection</title>
+  </head>
+  <body>
+    <div
+      style="
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+      "
+    >
+      <div class="center-box">
+        <h1>Fake Twitter Account Detection</h1>
+        <div>
+          <form id="AnalysisForm">
+            <div>
+              <input
+                placeholder="Detect twitter account"
+                type="name"
+                name="username"
+              />
+            </div>
+            <button>Check</button>
+          </form>
+        </div>
+      </div>
+      <%if(result=='show'){%>
+        <%-include("result.ejs")%> 
+      <%}%>
+    </div>
+    
+  </body>
+  <script src="./script.js"></script>
+</html>

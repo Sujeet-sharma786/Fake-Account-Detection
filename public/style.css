@@ -1,0 +1,15 @@
+.center-box{
+    text-align: center;
+    width:60%;
+    height:60%;
+}
+#AnalysisForm input{
+    width:70%;
+    padding:10px;
+    font-size:20px;
+    outline: none;
+}
+#AnalysisForm select{
+    padding:10px;
+    font-size:20px;
+}
