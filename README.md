@@ -28,7 +28,7 @@ The project consists of two main components:
 1. **Clone the repository:**
 
    ```bash
-   git clone https://github.com/your-username/fake-Account-detection.git
+   git clone https://github.com/<your-username>/Fake-Account-Detection.git
 ## Installation
 
 1. **Install Python dependencies:**
@@ -69,5 +69,5 @@ The project consists of two main components:
 
 ## Contributer 
 
-- Sumit Pathak
+- Sujeet Sharma
 
